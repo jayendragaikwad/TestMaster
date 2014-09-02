@@ -37,5 +37,12 @@ class StackTest extends PHPUnit_Framework_TestCase
     {
         $this->assertTrue(TRUE);
     }
+
+    //One more test case.
+
+    public function testSampleMessage() 
+    {
+	$this->assertTrue(TRUE, "This is sample test message");
+    }
 }
 ?>
